@@ -9,8 +9,6 @@ jobs:
         include:
           - arch: AMD64
             platform: x64
-          - arch: x86
-            platform: Win32
     steps:
     - uses: actions/checkout@v3
     - name: Setup MSBuild
